@@ -1,0 +1,22 @@
+{
+  "name": "evolution-api-n8n-whatsapp",
+  "version": "1.0.0",
+  "description": "Evolution API serverless pra conectar WhatsApp ao n8n com agente IA",
+  "main": "evolution-api-setup.js",
+  "scripts": {
+    "start": "node evolution-api-setup.js",
+    "dev": "nodemon evolution-api-setup.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
