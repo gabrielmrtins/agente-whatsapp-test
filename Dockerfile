@@ -2,7 +2,7 @@ FROM node:18-slim
 
 # Instalar dependências do Puppeteer
 RUN apt-get update && apt-get install -y \
-    chromium-browser \
+    chromium \
     ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
